@@ -1,0 +1,45 @@
+.nav-bar{
+    padding: 10px;
+    color: black;
+}
+
+.nav-logo{
+    width: 220px;
+    height: 50px;
+}
+
+.nav-toggle {
+   background-color: #565454;
+   outline: none;
+}
+
+.nav-link-style {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:992px) {
+    .nav-logo {
+        width: 180px;
+        height: 40px;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
+
+    .nav-link-style {
+        color: black;
+        cursor: pointer;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #333; /* Darker text color on hover */
+      }
+
+
+}
+
+
+

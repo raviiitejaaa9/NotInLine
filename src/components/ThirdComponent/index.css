@@ -1,0 +1,50 @@
+.third-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.tc-img{
+    width: 500px;
+    height: 60px;
+}
+
+.tc-wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.wrap-component {
+    height: 80px;
+    width: 150px;
+    margin: 31px;
+    background-color: #138ED1;
+    ;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+@media (max-width:940px) {
+    .tc-img {
+        width: 280px;
+        min-width: 260px;
+        max-width: 320px;
+        height: 45px;
+
+    }
+}

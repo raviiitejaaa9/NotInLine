@@ -1,0 +1,40 @@
+.second-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-img-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sc-head {
+    font-size: 32px;
+}
+
+@media (max-width:940px){
+    .second-component {
+        flex-direction: column;
+    }
+
+    .sc-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sc-head {
+        font-size: 22px;
+    }
+}
