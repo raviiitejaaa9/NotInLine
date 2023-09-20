@@ -14,6 +14,7 @@ const FirstComponent = () => {
             <div className = "fc-disc" > <p className = "text-underline fc-span"  > 5999 </p> <p className = "fc-span" > 999 </p> <p className = "fc-span" > 70% OFF </p>  </div>
             <div>
                 <form className = "form" onSubmit = {onSubmitForm} >
+                    <h3 className = "form-head" > Fill in the details to get a call </h3>
                     <div className = "input-container">
                         <label htmlFor = "full name" className = "label-el" > 
                             <img alt = "profile-icon" className = "form-icons" 
