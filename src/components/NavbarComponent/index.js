@@ -11,7 +11,7 @@ function NavbarComponent() {
         <Nav className="mx-auto">
           <Nav.Link href="#home" className="nav-link-style" >Home</Nav.Link>
           <Nav.Link href="#health-conditions" className="nav-link-style"  >Health Conditions</Nav.Link>
-          <Nav.Link href="#lab-tests" className="nav-link-style"   >Lab Tests</Nav.Link>
+          <Nav.Link href="#lab-tests" className="nav-link-style lab-tests "   >Lab Tests</Nav.Link>
           <Nav.Link href="#medicines" className="nav-link-style" >Medicines</Nav.Link>
         </Nav>
         <Nav>

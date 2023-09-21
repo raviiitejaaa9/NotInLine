@@ -18,6 +18,15 @@
     cursor: pointer;
 }
 
+.lab-tests{
+    width: 90px;
+    height: 40.49px;
+    top: 24.29px;
+    left: 708px;
+    color: #138ED1;
+    font-weight: bold;
+}
+
 
 
 @media (max-width:992px) {
